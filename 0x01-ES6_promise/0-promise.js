@@ -1,5 +1,5 @@
-const  getResponseFromAPI = new Promise();
+function getResponseFromAPI() {
+  return Promise.resolve();
+}
 
-  getResponseFromAPI(() => {
-    return resolve()
-  });
+export default getResponseFromAPI;
